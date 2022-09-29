@@ -6,14 +6,15 @@
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
+
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="style.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="">
-
+        
+      
         <title>Responsive Portfolio Website</title>
     </head>
     <body>
@@ -56,10 +57,10 @@
                             </a>
                         </li>
                     </ul>
-                    <i class="uil uil-times nav_close" id="nav_close"></i>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
                  </div>
                  <div class="nav_btns">
-                    <div class="nav_toggle" id="nav-oggle">
+                    <div class="nav_toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
 
                     </div>
@@ -71,11 +72,79 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
+                <div class="home_container" container grid>
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin"></i>
+
+                            </a>
+                           
+                            <a href="https://github.com/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                            <a href="https://leetcode.com/"target="_blank" class="home_social-icon">
+                                <i class="uil uil-link-h"></i>
+                                
+                            </a>
+                        </div>
+                        <div class="home_img">
+                            <svg viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask> 
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home_blob-img" xlink:href="img/myphoto.jpeg"/>
+                            </svg>
+                        </div>
+                        <div class="home_data">
+                            <h1 class="home_title">
+                                Hello, I'am Akanksha
+                            </h1>
+                            <h3 class="home_subtitle">
+                                Software Engineer
+                            </h3> 
+                            <p class="home_description">
+                                Computer Science Student || Programmer || Web Developer
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                               Contact Me <i class="uil uil-message button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home_scroll">
+                        <a href="#about"  class="home_scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
                 
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
+                <h2 class="section_tittle">About Me</h2>
+                <Span class="section_subtitle">My Intoduction</Span>
+                <div class="abouty_container container grid">
+                    <img src="" alt="">
+                    <p class="about_description"> I am Computer Science student,with extensive knowledge of Cpp and Python,dveloped project in Machine learning and web technolgies. I am also familiar with database like SQL.</p>
+                    <div class="about_info-title">
+                       <div>
+                        <span class="about_info-title">08+</span>
+                       </div>
+
+                    </div>
+                </div>
+
                 
             </section>
 
@@ -121,6 +190,7 @@
         <script src=""></script>
 
         <!--==================== MAIN JS ====================-->
-        <script src=""></script>
+        <script src="main.js"></script>
+
     </body>
 </html>
